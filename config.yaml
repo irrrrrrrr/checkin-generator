@@ -1,4 +1,9 @@
+geometry:
+  height: 300
+  width: 270
+  x: 1317
+  y: 295
 in_time: 06:30
-num: 30
+num: 15
 out_time: '16:30'
-rev: 20
+rev: 15
