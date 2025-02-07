@@ -26,6 +26,7 @@ def process_excel_file(desktop_path):
         if os.path.exists(temp_path):
             shutil.copy(temp_path, file_path)
             print(f"Copied {temp_path} to {file_path}")
+            run(file_path)
         else:
             print(f"Temp file does not exist: {temp_path}")
     except Exception as e:
